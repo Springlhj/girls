@@ -1,0 +1,13 @@
+#指明使用开发环境
+spring:
+  profiles:
+    active: dev
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/jpatest?useSSL=false
+    username: root
+    password: 502131
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true

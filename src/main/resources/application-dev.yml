@@ -1,0 +1,6 @@
+#开发环境
+server:
+  port: 8080
+girl:
+  cupSize: 20
+  age: 18
